@@ -19,5 +19,5 @@ testimonials:
 
   - name: "Marvin McKinney"
     avatar: "/images/avatar-sm.png"
-    content: "You are startdust"
+    content: "You and I, we are made of startdust. We are the universe in itself."
 ---
