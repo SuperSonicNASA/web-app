@@ -7,6 +7,7 @@ import { defineConfig, squooshImageService } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
+//import vercelStatic from '@astrojs/vercel/static';
 
 // https://astro.build/config
 export default defineConfig({
@@ -56,4 +57,6 @@ export default defineConfig({
   build: {
     format: config.site.trailing_slash ? 'directory' : 'file'
   },
+  //output: 'static',
+  //adapter: vercelStatic(),
 });
