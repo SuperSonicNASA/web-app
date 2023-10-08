@@ -3,24 +3,66 @@ import AuthorCard from "@/components/AuthorCard.astro";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
-import { getEntryBySlug } from "astro:content";
-
-const authorIndex = await getEntryBySlug<any, string>("authors", "-index");
-const authors = await getSinglePage("authors");
 ---
 
-<Base title={authorIndex.data.title}>
-  <PageHeader title={authorIndex.data.title} />
+<Base title='Team members'>
+  <PageHeader title='team members' />
   <section class="section-sm pb-0">
     <div class="container">
-      <div class="row justify-center">
-        {
-          authors.map((author) => (
-            <div class="mb-14 md:col-6 lg:col-4">
-              <AuthorCard data={author} />
-            </div>
-          ))
-        }
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+        <div class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
+          <h4 class="mb-3">
+            <a>Giang Tran</a>
+          </h4>
+          <p class="mb-4">
+            University of Waterloo 1st Year Global Business & Art Student
+          </p>
+        </div>
+
+        <div class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
+          <h4 class="mb-3">
+            <a>Grace Xu</a>
+          </h4>
+          <p class="mb-4">
+            University of Waterloo 2nd Year Computer Science Student
+          </p>
+        </div>
+
+        <div class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
+          <h4 class="mb-3">
+            <a>Son Nguyen</a>
+          </h4>
+          <p class="mb-4">
+            University of Toronto 2nd Year Computer Science Student
+          </p>
+        </div>
+
+        <div class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
+          <h4 class="mb-3">
+            <a>Jimmy Nguyen</a>
+          </h4>
+          <p class="mb-4">
+            York University 1st Year Software Engineering Student
+          </p>
+        </div>
+        
+        <div class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
+          <h4 class="mb-3">
+            <a>Hyun Joon</a>
+          </h4>
+          <p class="mb-4">
+            Seneca College CPA
+          </p>
+        </div>
+
+        <div class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
+          <h4 class="mb-3">
+            <a>Chelsea Wong</a>
+          </h4>
+          <p class="mb-4">
+            Toronto High School Student
+          </p>
+        </div>
       </div>
     </div>
   </section>
