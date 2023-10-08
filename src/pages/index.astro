@@ -63,7 +63,7 @@ const { banner, features }: Homepage = homepage.data;
   <!-- Features -->
   {
     features.map((feature, index: number) => (
-      <section class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
+      <section class={`section-sm ${(index % 2 === 0) && "bg-gradient"}`}>
         <div class="container">
           <div class="row items-center justify-between">
             <div
@@ -79,10 +79,11 @@ const { banner, features }: Homepage = homepage.data;
                 format="webp"
               />
             </div>
-            <div class={`md:col-7 lg:col-6 ${index % 2 !== 0 && "md:order-1"}`}>
-              <h2 set:html={markdownify(feature.title)} class="mb-4" style="color:rgb(71, 119, 143);"/>
-              <p set:html={markdownify(feature.content)} class="mb-8 text-lg" style="color:rgb(70, 143, 143);"/>
-            </div>
+            <div class={`md:col-7 lg:col-6 ${index % 2 !== 0 ? "odd-index" : "even-index"}`}>
+  <h2 set:html={markdownify(feature.title)} class={`mb-4 ${index % 2 !== 0 ? "text-odd-color" : "text-even-color"}`} style="font-weight:bold;"/>
+  <p set:html={markdownify(feature.content)} class={`mb-8 text-lg ${index % 2 !== 0 ? "text-odd-color" : "text-even-color"}`} style="font-weight:bold;"/>
+</div>
+
           </div>
         </div>
       </section>
@@ -139,7 +140,6 @@ const { banner, features }: Homepage = homepage.data;
             Seneca College CPA
           </p>
         </div>
-
         <div class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
           <h4 class="mb-3">
             <a>Chelsea Wong</a>
@@ -175,5 +175,13 @@ const { banner, features }: Homepage = homepage.data;
 
   .floating-animation {
     animation: float 2s ease-in-out infinite; /* Adjust the animation duration as needed */
+  }
+
+  .text-odd-color { 
+    color: rgb(215, 215, 215);
+  }
+
+  .text-even-color {
+    color: rgb(87, 87, 87);
   }
 </style>

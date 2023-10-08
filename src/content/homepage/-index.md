@@ -39,6 +39,18 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/astroplate"
 
+  - title: "Mapping the Cosmos"
+    image: "/images/service-4.png"
+    content: "By using sonification, we created music from the universe! Our approach is looping through the columns of pixels within the image from left to right (with steps > 1 to optimise the run time of the image processing step).
+    Then, we take the average RGB value of each column and turn them into corresponding sound.
+    Based on the difference in the average RGB values, the program will produce different sounds, thus creating a melodic tune as the program sweeps through the image. Here is a link to the videos:
+     <a href='https://youtube.com/playlist?list=PLaAbOFXJZAiRBWhMA1k0Ix5203Gh0wu0D&si=kuB1ZgxOp6-SzwKG'>LINK HERE</a>"
+
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "https://github.com/zeon-studio/astroplate"
+
   - title: "Conclusion"
     image: "/images/service-3.png"
     content: "We often perceive space as an ethereal entity, seemingly distant and foreign to our earthly existence. Yet, beneath its celestial veil, it unveils a profound kinship with humanity on Earth. The emotions of our human world find their reflection in the multifaceted symphony of space, where sounds, patterns, and colors weave a tapestry of cosmic wonder. By using sound to represent data, researcher can create ways of interact with the world that are more accessible and inclusive. 
