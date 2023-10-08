@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Astroplate",
+    "title": "SuperSonic",
     "base_url": "https://astroplate.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -24,13 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
-  },
-
-  "navigation_button": {
-    "enable": true,
-    "label": "Repo Link",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "copyright": "Designed And Developed by SuperSonic For 2023 NASA Space Apps"
   },
 
   "disqus": {
