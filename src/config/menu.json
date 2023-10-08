@@ -18,28 +18,12 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Authors",
+          "name": "Project Team Members",
           "url": "/authors"
         },
         {
-          "name": "Categories",
+          "name": "NASA Space App Challenge",
           "url": "/categories"
-        },
-        {
-          "name": "Search",
-          "url": "/search"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
         }
       ]
     }
@@ -48,10 +32,6 @@
     {
       "name": "Elements",
       "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
     }
   ]
 }
