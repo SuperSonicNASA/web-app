@@ -6,22 +6,18 @@ description: "Don't just take our word for it - hear from some of our satisfied 
 # Testimonials
 testimonials:
   - name: "Marvin McKinney"
-    designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "The mass gross absence of sound in space is more than just silence."
 
   - name: "Marvin McKinney"
-    designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "You are being moved by something much bigger than you."
 
   - name: "Marvin McKinney"
-    designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Music gives a soul to the universe, wings to the mind flight to the imagination and life to everything."
 
   - name: "Marvin McKinney"
-    designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "You are startdust"
 ---
